@@ -1,5 +1,5 @@
-import React from 'react';
-import { Link } from 'react-router-dom';
+import React from "react";
+import { Link } from "react-router-dom";
 
 function Header() {
   return (
@@ -9,7 +9,7 @@ function Header() {
           <Link to="/">
             <div className="flex gap-4 align-center ">
               <img
-                src="./src/assets/Port-logo-ico.png"
+                src="/Port-logo-ico.png"
                 alt=""
                 className="rounded-full h-8"
               />
