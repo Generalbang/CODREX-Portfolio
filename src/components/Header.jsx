@@ -17,7 +17,7 @@ function Header() {
             </div>
           </Link>
           <div className="resume px-2 md:py-2 rounded md:text-xl border-2 border-solid border-black-600 hover:bg-yellow-500">
-            <Link to="">
+            <Link to="https://drive.google.com/file/d/1CeXIclWOkorVXpC-y2k0mztAEEZRQEeC/view">
               CV <span className="hidden md:inline">/ Resume</span>
             </Link>
           </div>

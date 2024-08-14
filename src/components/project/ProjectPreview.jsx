@@ -4,7 +4,10 @@ import { Link } from "react-router-dom";
 function ProjectPreview() {
   return (
     <>
-      <div className="flex align-center justify-center text-start">
+      <div className="flex flex-col items-center justify-center text-start">
+        <div className="text-3xl text-gray-300 font-bold font-mono uppercase">
+          projects
+        </div>
         <div className="flex mb-8 lg:w-4/5 align-center">
           <div className="grid mx-auto px-8 sm:grid-cols-2 lg:grid-cols-3  gap-4">
             <div className="overflow-hidden rounded  w-full">

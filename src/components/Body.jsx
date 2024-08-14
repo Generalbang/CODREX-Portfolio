@@ -1,7 +1,7 @@
-import React from 'react';
-import { Link } from 'react-router-dom';
-import ProjectPreview from './project/ProjectPreview';
-import MyTechStack from './MyTechStack';
+import React from "react";
+import { Link } from "react-router-dom";
+import ProjectPreview from "./project/ProjectPreview";
+import MyTechStack from "./MyTechStack";
 
 function Body() {
   return (
@@ -26,7 +26,7 @@ function Body() {
           <MyTechStack />
           {/* project preview section */}
           <ProjectPreview />
-          <Link to="mailto:dev.ojodare@gmail.com">
+          <Link to="mailto:js.dev.ojodare@gmail.com">
             <div className="bg-blue-400 text-2xl mb-16 md:mb-8 text-blue-100 py-4 w-2/3 mx-auto rounded border-solid border-2 border-white-400 hover:bg-blue-600 hover:text-white-300 hover:text-bold">
               Collaborate
             </div>
