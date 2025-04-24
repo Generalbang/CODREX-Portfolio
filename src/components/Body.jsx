@@ -2,6 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import ProjectPreview from "./project/ProjectPreview";
 import MyTechStack from "./MyTechStack";
+import TypedText from './TypedText';
 
 function Body() {
   return (
@@ -11,12 +12,13 @@ function Body() {
           <div className="text-3xl font-bold uppercase font-sans ">
             Hey, I'm <br className="md:hidden" /> Ojo Dare Johnson
           </div>
+          <TypedText />
           <div className="text-md md:text-xl px-4 my-8">
             A Front-End Website and <br className="md:hidden" />
             Web Application Developer. <br />I create pixel perfect, interactive
-            and responsive website and web Application frontend. <br />
-            Highly motivated and detail-oriented Front-End Web Developer with
-            experience in HTML, CSS, Tailwind, JavaScript, and React. <br />
+            and responsive website and web Application <br />
+            Highly motivated and detail-oriented MERN Stack Developer with
+            experience in HTML, CSS, Tailwind, JavaScript, NodeJs, Python, Django, ExpressJs, MongoDB, Mongoose and React. <br />
             Proficient in problem-solving and collaboration, with a strong
             passion for software development, cryptocurrency, and web3
             technologies.
