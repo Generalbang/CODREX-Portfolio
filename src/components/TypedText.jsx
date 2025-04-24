@@ -7,7 +7,7 @@ const TypedText = () => {
 
   useEffect(() => {
     typed.current = new Typed(el.current, {
-      strings: ["developer", "designer", "dreamer", "problem solver"],
+      strings: ["Frontend Developer","Backend Developer", "dreamer", "problem solver"],
       typeSpeed: 70,
       backSpeed: 40,
       loop: true,

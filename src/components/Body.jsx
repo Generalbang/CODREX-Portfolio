@@ -14,7 +14,7 @@ function Body() {
           </div>
           <TypedText />
           <div className="text-md md:text-xl px-4 my-8">
-            A Front-End Website and <br className="md:hidden" />
+            A MERN Stack Website and <br className="md:hidden" />
             Web Application Developer. <br />I create pixel perfect, interactive
             and responsive website and web Application <br />
             Highly motivated and detail-oriented MERN Stack Developer with
